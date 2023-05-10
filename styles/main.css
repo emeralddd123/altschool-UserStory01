@@ -1,0 +1,86 @@
+.body {
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button {
+    background-color: #af664c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 20px;
+
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.sect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the first div */
+.left {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px 50px 50px 0px;
+
+}
+
+/* Style the second div */
+.right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 50px 50px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+h1 {
+    color: #242D52
+}
+
+h2 {
+    color: #242D52
+}
