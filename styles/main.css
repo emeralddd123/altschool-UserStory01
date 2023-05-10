@@ -25,16 +25,16 @@
 }
 
 button {
-    background-color: #af664c;
+    background-color: #F3603C;
+    box-shadow: 0px 3px 2px 2px #d37a62;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     border-width: 2px;
-    border-radius: 20px;
+    border-radius: 400px;
 
 }
 
@@ -78,9 +78,57 @@ button {
 }
 
 h1 {
-    color: #242D52
+    color: #242D52;
+    font-size: 350%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
 }
 
 h2 {
-    color: #242D52
+    color: #242D52;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8b90ad;
+    padding: 10px 150px 10px 0px;
+    line-height: 1.6;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-badge {
+    flex: 1;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+
+}
+
+.features-desc {
+    flex: 1;
+
+}
+
+.badge {
+    width: 70px;
+    height: 50px;
+    color: white;
+    background-color: #F3603C;
+    border: 5px #F3603C;
+    border-radius: 30px;
+    margin: 0;
+}
+
+span{
+    padding-left: 25px;
+    margin-top: 25px;
 }
