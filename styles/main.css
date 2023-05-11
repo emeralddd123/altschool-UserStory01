@@ -79,6 +79,7 @@ button {
 
 h1,
 h2,
+h3,
 h5 {
     color: #242D52;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,6 +93,11 @@ h1 {
 h2 {
     font-size: 300%;
     font-weight: 700;
+}
+
+h3{
+    font-size: 300%;
+    font-weight: 600;
 }
 
 h5 {
@@ -149,3 +155,16 @@ p,
 .p-right {
     padding: 0px 0px 10px 0px;
 }
+
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-item {
+    padding: 0;
+    text-align: center;
+}
+
+
+
