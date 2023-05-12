@@ -25,10 +25,11 @@
 }
 
 button {
-    background-color: #F3603C;
-    box-shadow: 0px 3px 2px 2px #d37a62;
-    border: none;
-    color: white;
+    border-color: #F3603C;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: #242D52;
+    color:#242D52;
     padding: 15px 30px;
     text-align: center;
     font-size: 14px;
@@ -36,6 +37,12 @@ button {
     border-width: 2px;
     border-radius: 400px;
 
+}
+
+button:hover{
+    border-color: #F3603C;
+    background-color: #F3603C;
+    color: #ffffff;
 }
 
 .container {
@@ -106,6 +113,21 @@ h5,.h-rev {
     font-weight: 500;
     margin-bottom: 6px;
 }
+
+.link{
+    color:#242D52;
+}
+
+.link:hover{
+     color: #F3603C;
+}
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
 
 p,
 .p-rev,
