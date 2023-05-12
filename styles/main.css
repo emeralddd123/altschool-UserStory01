@@ -95,7 +95,7 @@ h2 {
     font-weight: 700;
 }
 
-h3{
+h3 {
     font-size: 300%;
     font-weight: 600;
 }
@@ -166,5 +166,16 @@ p,
     text-align: center;
 }
 
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 
-
+    .card {
+        flex: 0 0 auto;
+        width: 400px;
+        height: 150px;
+        color: #e1d4d1;
+        text-align: center;
+    }
+}
