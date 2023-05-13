@@ -195,12 +195,12 @@ p,
     padding: 0px 0px 10px 0px;
 }
 
-.review {
+.service {
     display: flex;
     flex-direction: column;
 }
 
-.review-item {
+.service-item {
     padding: 0;
     padding-bottom: 1%;
     text-align: center;
